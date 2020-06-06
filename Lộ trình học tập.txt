@@ -1,0 +1,10 @@
+Chi tiết khoá học (50K/1h => 1 buổi/ 2h)
+	Phần 1: Core
+		Buổi 1: Java cơ bản
+		Buổi 2 + 3 + 4 + 5: Hướng đối tượng
+		Buổi 6: Java nâng cao (xử lý chuỗi, đọc file)
+		Buổi 7: Học collection trong java
+		Buổi 8 + 9: Ôn tập lại các kiến thức.
+		
+	Phần 2: Framework
+		Buổi 10: Học framework
