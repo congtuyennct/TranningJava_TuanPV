@@ -1,0 +1,7 @@
+1, Viết chương trình java nhập vào một số nguyên a là in ra “so duong” nếu a > 0, “so am” nếu a < 0.
+
+2, Viết chương trình java giải phương trình bậc 2 aX2+ bX + c. Với a, b, c là 2 số nhập vào từ bàn phím.
+
+3, Viết chương trình java nhập vào số nguyên a có giá trị 1 đến 7, tương ứng với số ngày trong tuần. Xuất ra ngày tương ứng trong tuần. ví dụ 1 => chu nhat, 2 => thu hai, 7 => thu bay
+
+4, Viết chương trình java nhập vào số nguyên a là năm tương ứng. Kiểm tra xem năm đó có phải là năm nhuận hay không?

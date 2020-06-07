@@ -1,0 +1,11 @@
+Nội dung buổi 1:
+	- Trong 1 file java chỉ có 1 public class và trong 1 class chỉ có 1 function main 
+	- Đối với tên class thì chữ đầu phải viết hoa.
+	- Tên function với tên biến phải viết thường chữ cái đầu (tinhTong())
+	
+	- Phạm vi truy cập biến (access modifi)
+		+ Public : toàn bộ chương trình
+		+ Protected: chỉ những thằng còn của class cha có quyền truy cập
+		+ Private: chỉ trong class
+		+ default: chỉ trong package
+		

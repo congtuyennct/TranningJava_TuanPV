@@ -1,3 +1,0 @@
-Nội dung buổi 1:
-	- Trong 1 file java chỉ có 1 public class và trong 1 class chỉ có 1 function main 
-	- Khai báo biến
