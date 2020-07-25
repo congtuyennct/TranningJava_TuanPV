@@ -10,6 +10,10 @@ public class Persion {
 		System.out.println("ngủ");
 	}
 	
+	public void sleep(int s) {
+		System.out.println("ngủ");
+	}
+	
 	public void salary() {
 		
 	}

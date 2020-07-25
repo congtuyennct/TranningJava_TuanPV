@@ -4,7 +4,7 @@ Với đầy đủ các hàm get,set, contructor có tham số và không có th
  a. Viết phương thức nhập các thông tin của person từ bàn phím
  b. Xuất các thông tin lên màn hình của person.
  
-Bài tập 2: Tạo một lớp Person lưu trữ các thông tin sau đây ( Tên, giới tính, địa chỉ,ngay sinh)
+Bài tập 2:  
 Tạo một lớp Student kế thừa từ lớp person lưu trữ các thông tin như dưới đây: Mã sinh viên,điểm trung bình, email
 Viết một phương thức nhập thông tin của student
 Viết một phương thức hiện thị thông tin của student
