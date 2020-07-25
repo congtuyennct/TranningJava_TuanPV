@@ -5,8 +5,7 @@ Với đầy đủ các hàm get,set, contructor có tham số và không có th
  b. Xuất các thông tin lên màn hình của person.
  
 Bài tập 2: Tạo một lớp Person lưu trữ các thông tin sau đây ( Tên, giới tính, địa chỉ,ngay sinh)
-Tạo một lớp Student kế thừa từ lớp person lưu trữ các thông tin như dưới đây:
-Mã sinh viên,điểm trung bình, email
+Tạo một lớp Student kế thừa từ lớp person lưu trữ các thông tin như dưới đây: Mã sinh viên,điểm trung bình, email
 Viết một phương thức nhập thông tin của student
 Viết một phương thức hiện thị thông tin của student
 Viết phương trình xem xét có sinh viên nào được học bổng không? điểm trung bình hơn 8.0 sẽ được hổng bổng
@@ -14,3 +13,10 @@ Viết phương trình xem xét có sinh viên nào được học bổng không
 Bài 3: Chúng ta sẽ tiếp tục cùng nhau xây dựng ứng dụng tính toán các giá trị hình học cho HinhTron, HinhTru, HinhChuNhat, HinhVuong. 
 Tính nhập vào thông số tương ứng vs các hình và tính chu vi, diện tích rồi hiển thị ra thông số và chu vi diện tích ra màn hình
 (vd: hình vuồng thì nhập thông số cạnh vào rồi tính chu vi và diện tích của nó)
+
+
+-- Các bước giải bài toán
+B1: Đọc đề bài và đưa ra các yêu cầu của bài toán
+B2: Phân tích bài toán và các giải quyết các yêu cầu của bài toán
+B3: Tiến hành code
+B4: Kiểm tra code và kết quả
