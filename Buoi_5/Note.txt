@@ -1,0 +1,9 @@
+						 HƯỚNG ĐỐI TƯỢNG
+- Gồm 4 tính chất cơ bản: 
+	+ Tính trừu tượng
+	+ Tính kế thừa
+	+ Tình đóng gói
+	+ Tính đa hình
+	
+- Tính kế thừa: Là thằng con kế thừa lại những thuộc tính của thằng cha
+	+ 
