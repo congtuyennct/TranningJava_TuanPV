@@ -1,1 +1,32 @@
 Bài 1: Shape là lớp trừu tượng, trình triển khai của nó được cung cấp bởi lớp Rectangle và lớp Circle. Hai lớp này kế thừa lớp trừu tượng Shape
+
+Bài tập 2: HỆ THỐNG QUẢN LÝ SỐ ĐIỆN THOẠI
+1. Tạo một lớp có tên Phone chứa những phương thức trừu tượng sau đây:
+- abstract void insertPhone(String name, String phone)
+- abstract void removePhone(String name)
+- abstract void updatePhone(String name, String newphone)
+- abstract void searchPhone(String name)
+- abstract void sort()
+2. Tạo lớp có tên PhoneBook thừa kế lớp Phone:
+- Tạo một ArrayList tên PhoneList để lưu dữ liệu.
+- Phương thức insertPhone(String name, String phone):
+- Nếu tên người dùng (name) chưa có sẵn trong PhoneList thì thêm người dùng cùng số điện thoại (phone) tương ứng vào
+- Nếu tên người dùng đã có sẵn thì kiểm tra xem số điện thoại (phone) có khác so với số đã có không, nếu khác thì thêm vào sau số đã có theo
+dạng như ví dụ sau:
+"0912333333 : 0902345671"
+- Phương thức removePhone(String name):
+- Xóa người dùng cùng các số điện thoại của chủ sở hữu có tên (name) tương ứng khỏi PhoneList.
+- Phương thức updatePhone(String name, String newphone):
+- Thay số điện thoại cũ bằng số điện thoại (newphone) mới.
+- Phương thức searchPhone(String name):
+-Tìm kiếm số điện thoại theo tên người dùng.
+- Phương thức sort():
+- Sắp xếp các phần tử trong PhoneList theo tên người dùng.
+3. Tạo lớp ManagePhoneBook chứa phương thức main() để quản lý chương trình theo dạng Menu như sau:
+PHONEBOOK MANAGEMENT SYSTEM
+1. Insert Phone
+2. Remove Phone
+3. Update Phone
+4. Search Phone
+5. Sort
+6. Exit

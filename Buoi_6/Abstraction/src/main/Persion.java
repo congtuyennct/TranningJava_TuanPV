@@ -5,9 +5,7 @@ public abstract class Persion {
 	private String name;
 
 	// chỉ cần viết ra tên các phương thức cốt lõi mà ko cần viết logic xử lý code
-	public void sleep() {
-		
-	}
+	abstract void sleep();
 	
 	public void work() {
 		System.out.println("công việc");
