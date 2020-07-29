@@ -36,4 +36,8 @@ public class Persion {
 	public void congViec() {
 		
 	}
+	
+	public void nhap() {
+		
+	}
 }
