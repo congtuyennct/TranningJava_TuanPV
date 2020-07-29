@@ -1,0 +1,25 @@
+Trừu tượng trong java 
+
+- khái niệm: Trừu tượng hoá 1 đối tượng chỉ quan tâm đến cốt lõi của đối tượng
+- Mục địch: 
+	+ Cho phép lập trình viên bỏ qua những phức tạp của đối tượng mà chỉ quan tâm đến những khái niệm và phương thức , thuộc tính cần thiết.
+	+ Nó giúp chúng ta tập trung vào cái cốt lõi của đối tượng
+- Lưu ý: 
+	+ Không thể khởi tạo được lớp trừu 
+	+ Đã là class abstract thì các phương thức đều là abstract method
+
+- Có 2 cách để trừu tượng hoá trong java
+	+ Dùng abstract class 
+	+ Dùng interface
+	
+- Điểm chung của abstract và interface :
+	+ Đều là tính trừu tượng của java
+	+ Chúng chỉ cần khai báo các tên phương thức
+	
+- Điểm khác nhau abstract và interface : 
+	+ Các phương thức của interface thì không có body (thân hàm) còn abstract có thể có.
+	+ Các thuộc tính của interface thì đều là các constant ( hằng số )
+	+ Các phương thức và thuộc tính trong interface luôn luôn là public 
+	+ Để dùng abstract class thì ta phải kế thừa (extent) còn dùng interface thì ta phải implement
+	+ Là có thể implement nhiều class nhưng không thể thế thừa nhiều class
+	+ Khi implement 1 class thì bắt buộc phải override lại các phương thức của lớp implement
