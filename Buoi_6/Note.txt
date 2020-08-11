@@ -6,7 +6,6 @@ Trừu tượng trong java
 	+ Nó giúp chúng ta tập trung vào cái cốt lõi của đối tượng
 - Lưu ý: 
 	+ Không thể khởi tạo được lớp trừu 
-	+ Đã là class abstract thì các phương thức đều là abstract method
 
 - Có 2 cách để trừu tượng hoá trong java
 	+ Dùng abstract class 
