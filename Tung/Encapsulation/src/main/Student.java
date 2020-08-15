@@ -4,7 +4,7 @@ public class Student {
 	// ten, tuoi, mau sac, kich thuoc
 	private String ten;
 	private int tuoi;
-	private int money = 100000;
+	private int money;
 	
 	public String getTen() {
 		return ten;
