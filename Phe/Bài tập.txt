@@ -1,0 +1,87 @@
+Bài 1: Shape là lớp trừu tượng, trình triển khai của nó được cung cấp bởi lớp Rectangle và lớp Circle. Hai lớp này kế thừa lớp trừu tượng Shape
+
+Bài tập 2: HỆ THỐNG QUẢN LÝ SỐ ĐIỆN THOẠI
+1. Tạo một lớp có tên Phone chứa những phương thức trừu tượng sau đây:
+- abstract void insertPhone(String name, String phone)
+- abstract void removePhone(String name)
+- abstract void updatePhone(String name, String newphone)
+- abstract void searchPhone(String name)
+- abstract void sort()
+2. Tạo lớp có tên PhoneBook thừa kế lớp Phone:
+- Tạo một ArrayList tên PhoneList để lưu dữ liệu.
+- Phương thức insertPhone(String name, String phone):
+- Nếu tên người dùng (name) chưa có sẵn trong PhoneList thì thêm người dùng cùng số điện thoại (phone) tương ứng vào
+- Nếu tên người dùng đã có sẵn thì kiểm tra xem số điện thoại (phone) có khác so với số đã có không, nếu khác thì thêm vào sau số đã có theo
+dạng như ví dụ sau:
+"0912333333 : 0902345671"
+- Phương thức removePhone(String name):
+- Xóa người dùng cùng các số điện thoại của chủ sở hữu có tên (name) tương ứng khỏi PhoneList.
+- Phương thức updatePhone(String name, String newphone):
+- Thay số điện thoại cũ bằng số điện thoại (newphone) mới.
+- Phương thức searchPhone(String name):
+-Tìm kiếm số điện thoại theo tên người dùng.
+- Phương thức sort():
+- Sắp xếp các phần tử trong PhoneList theo tên người dùng.
+3. Tạo lớp ManagePhoneBook chứa phương thức main() để quản lý chương trình theo dạng Menu như sau:
+PHONEBOOK MANAGEMENT SYSTEM
+1. Insert Phone
+2. Remove Phone
+3. Update Phone
+4. Search Phone
+5. Sort
+6. Exit
+
+Bài tập 3:
+1. Tạo một giao diện (interface) có tên INews bao gồm phương thức void Display().
+2. Tạo một lớp có tên News:
+a. Khai báo các thuộc tính bao gồm: ID (int), Title (String), PublishDate (String), Author (String), Content (String) và AverageRate (oat). Tạo
+các phương thức setter và getter cho từng thuộc tính, riêng AverageRate thì chỉ có getter.
+b. Thực thi giao diện INews.
+c. Phương thức Display() sẽ in ra Title, PublishDate, Author, Content và AverageRate của tin tức ra console.
+d. Khai báo một mảng có tên RateList kiểu int gồm 3 phần tử.
+e. Tạo một phương thức có tên Calculate() để thiết đặt thuộc tính AverageRate ở ý a là trung bình cộng của 3 phần tử của mảng RateList ở ý d.
+3. Tạo một menu lựa chọn gồm các mục sau:
+1. Insert news
+2. View list news
+3. Average rate
+4. Exit
+4. Nếu người dùng chọn 1 từ bàn phím thì:
+a. Tạo một thể hiện của lớp News và nhập giá trị cho các thuộc tính Title, PublishDate, Author, Content sau đó yêu cầu người dùng nhập vào 3
+đánh giá để lưu vào RateList.
+b. Tạo một ArrayList (chỉ tạo duy nhất một ArrayList) để lưu thể hiện của lớp News.
+5. Nếu người dùng chọn 2 từ bàn phím thì lấy từng thể hiện trong ArrayList ra và thực thi phương thức Display() tương ứng của từng thể hiện.
+6. Nếu người dùng chọn 3 từ bàn phím thì thực hiện tương tự như mục 5 ở trên nhưng trước khi thực thi phương thức Display() thì cần thực thi
+phương thức Calculate() để tính đánh giá trung bình.
+7. Trường hợp người dùng chọn 4 thì sẽ thoát khỏi chương trình.
+
+BÀI TẬP 4: BOOKS MANAGEMENT SYSTEM
+In this exam, you’ll have to create a Books Management system. The system allows input, list, search … books.
+1. Create an interface name IBook contains this method:
+· void Display()
+2. Create a class name Book:
+a. Properties
+· ID (int)
+· Name (String)
+· PublishDate (String)
+· Author (String)
+· Language (String)
+· AveragePrice (oat) – Read only property
+b. Implements the IBook interface in step 1
+c. The method Display will print all Name, PublishDate, Author, Language and AveragePrice of the book to the console
+d. Declare an array name PriceList type int has size of 5 elements
+f. Create a method named Calculate to set AveragePrice = average of 5 int elements in PriceList array.
+3. Display a tasks menu to choose:
+1. Insert new book
+2. View list of books
+3. Average Price
+4. Exit
+4. If user type 1 from keyboard then:
+a. Create a new Book instance and input Name, PublishDate, Author, Language and then ask user to enter 5 prices and set to the instance
+indexer
+- The ID is auto increament ( ID++ )
+b. Create an ArrayList<Book> to keep the Book instance in step a
+5. If user type 2 from keyboard then:
+Loop from all book instances in the ArrayList<Book> then executes the Display method from IBook interface.
+6. If user type 3 from keyboard then:
+Loop from all book instances in the ArrayList<Book> then executes the Calculate method and then execute the Display method.
+7. While user not chooses Exit (type 4 from keyboard) then go back to the menu step 3 to ask user chooses an option.
